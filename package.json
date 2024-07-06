@@ -1,0 +1,28 @@
+{
+  "name": "accredian-backend-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.14",
+    "prisma": "^5.16.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.1",
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4"
+  },
+  "description": ""
+}
